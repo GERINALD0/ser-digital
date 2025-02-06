@@ -1,0 +1,39 @@
+.content-wrapper-center {
+    padding: 1rem;
+    max-width: 67.25rem;
+    margin: auto;
+}
+
+.header-menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+
+
+    display: none;
+}
+
+.header-menu a {
+    display: block;
+    padding: 2em 0;
+
+}
+
+.header {
+    text-align: left;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: var(--light);
+    transition: background .3s ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--primary-color-dark);
+}
