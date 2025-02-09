@@ -1,4 +1,62 @@
 @media (min-width: 46.25em) {
+    body {
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 3.265rem;
+    }
+    
+    h2 {
+        font-size: 2.875rem;
+        margin-top: 0;
+    }
+
+    .header {
+        align-items: center;
+    }
+
+    .menu-btn,
+    .menu-icon {
+        display: none;
+    }
+    
+    .header-menu {
+        /* display: block; */
+        margin: 0;
+        position: static;
+        max-height: initial;
+        background-color: initial;
+    }
+
+    .header-menu li {
+        display: inline-block;
+        margin-left: 1.5rem;
+    }
+
+    .header-menu a {
+        padding: 1rem;
+    }
+
+
+    .hero .imagem {
+        text-align: center;
+    }
+
+    .testemunho {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .contato_image {
+        display: block;
+        text-align: center;
+    }
+    
+    .row {
+        gap: 1rem;
+    }
+    
     .row >.md-3{
         grid-column: span 3;
     }
@@ -31,6 +89,23 @@
 
 
 @media (min-width: 90em) {
+    .hero_title {
+        margin-bottom: 6.25rem;
+    }
+    
+    .testemunho {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .testemunho_content {
+        text-align: center;
+    }
+
+    .row {
+        gap: 3rem;
+    }
+
     .row >.lg-3{
         grid-column: span 3;
     }
@@ -53,6 +128,10 @@
 
     .row >.lg-1-5 {
         grid-column: 1 / 6;
+    }
+
+    .row >.lg-1-7 {
+        grid-column: 1 / 8;
     }
 
     .row >.lg-8-12 {

@@ -3,6 +3,10 @@
     color: var(--dark);
     text-align: center;
     margin: 0;
+
+    background-image: 
+    radial-gradient(circle at left top, var(--primary-color), transparent 25rem),
+    radial-gradient(circle at right center, var(--primary-color), transparent 25rem);
 }
 
 a {
@@ -19,6 +23,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    margin-top: 0;
 }
 
 img {
@@ -38,7 +43,16 @@ img {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-auto-flow: dense;
-    gap: 3rem;
+    gap: .5rem;
+}
+
+.row.contato {
+    padding-top: 4rem ;
+    padding-bottom: 4rem;
+}
+
+.row.testemunhos_wrapper {
+    row-gap: 3rem;
 }
 
 .row > .sm-12 {

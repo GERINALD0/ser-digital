@@ -4,6 +4,11 @@
     padding: 1rem;
 }
 
+.testemunho_thumb {
+    width: 8.125rem;
+    height: 8.125rem;
+}
+
 .contato {
     background-color: var(--gray);
     border-radius: 5px;
